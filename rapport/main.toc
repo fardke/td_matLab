@@ -1,0 +1,7 @@
+\select@language {french}
+\contentsline {part}{I\hspace {1em}Exercice 1}{2}{part.1}
+\contentsline {part}{II\hspace {1em}Exercice 2}{2}{part.2}
+\contentsline {part}{III\hspace {1em}Exercice 3}{2}{part.3}
+\contentsline {part}{IV\hspace {1em}Exercice 4}{2}{part.4}
+\contentsline {part}{V\hspace {1em}Exercice 5}{3}{part.5}
+\contentsline {part}{VI\hspace {1em}Exercice 6}{4}{part.6}
