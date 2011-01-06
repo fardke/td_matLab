@@ -6,7 +6,7 @@
 
 FINAL_FILENAME=document
 FILENAME=main
-VIEWER=xdg-open
+VIEWER=evince
 RUBBER=$(shell which rubber)
 
 all: $(FILENAME).tex

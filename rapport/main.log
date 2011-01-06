@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.27)  6 JAN 2011 13:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.27)  6 JAN 2011 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,6 +579,21 @@ LaTeX Warning: Label `lst:label' multiply defined.
 
 LaTeX Warning: Label `lst:label' multiply defined.
 
+
+LaTeX Warning: Label `lst:label' multiply defined.
+
+
+LaTeX Warning: Label `lst:label' multiply defined.
+
+
+LaTeX Warning: Label `lst:label' multiply defined.
+
+
+LaTeX Warning: Label `lst:label' multiply defined.
+
+
+LaTeX Warning: Label `lst:label' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -729,31 +744,39 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (/home/kewin/octave/td_matLab/rapport/main.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 6.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 
-(/home/kewin/octave/td_matLab/rapport/main.lol
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 1.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 1.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 1.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 1.
-)
+(/home/kewin/octave/td_matLab/rapport/main.lol [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@lol=\write5
 \openout5 = `main.lol'.
 
- [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 79.
  (/home/kewin/octave/td_matLab/rapport/ex1.tex
@@ -776,8 +799,6 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 10.
 )
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 
@@ -786,14 +807,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
  []
 
 ) (/home/kewin/octave/td_matLab/rapport/ex2.tex
-(/home/kewin/octave/td_matLab/rapport/src/ex2.m
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2])
+(/home/kewin/octave/td_matLab/rapport/src/ex2.m [3])
 Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][][][][][][] 
  []
@@ -803,41 +817,224 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 [][][][][][][] 
  []
 
-) (/home/kewin/octave/td_matLab/rapport/ex3.tex)
-(/home/kewin/octave/td_matLab/rapport/ex4.tex
-(/home/kewin/octave/td_matLab/rapport/src/ex4.m [3])
+) (/home/kewin/octave/td_matLab/rapport/ex3.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\over' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+(/home/kewin/octave/td_matLab/rapport/src/ex3-1.m [4])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
+[][][][][][][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\over' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+(/home/kewin/octave/td_matLab/rapport/src/ex3-2.m [5])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 6--6
+[][][][][][][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\over' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+(/home/kewin/octave/td_matLab/rapport/src/ex3-3.m [6])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
+[][][][][][][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\over' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 11.
+
+(/home/kewin/octave/td_matLab/rapport/src/ex3-4.m [7])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 12--12
+[][][][][][][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\over' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 14.
+
+(/home/kewin/octave/td_matLab/rapport/src/ex3-5.m [8])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 15--15
+[][][][][][][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\over' on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 18.
+
+) [9] (/home/kewin/octave/td_matLab/rapport/ex4.tex
+(/home/kewin/octave/td_matLab/rapport/src/ex4.m [10])
 Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][][][][][][] 
  []
 
 ) (/home/kewin/octave/td_matLab/rapport/ex5.tex)
 (/home/kewin/octave/td_matLab/rapport/ex6.tex
-(/home/kewin/octave/td_matLab/rapport/src/ex6.m [4] [5])
+(/home/kewin/octave/td_matLab/rapport/src/ex6.m [11])
 Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][][][][][][] 
  []
 
-) [6] AED: lastpage setting LastPage
+) [12] AED: lastpage setting LastPage
 (/home/kewin/octave/td_matLab/rapport/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10160 strings out of 493848
- 141537 string characters out of 1152823
- 819515 words of memory out of 3000000
- 12993 multiletter control sequences out of 15000+50000
- 37919 words of font info for 89 fonts, out of 3000000 for 9000
+ 10546 strings out of 493848
+ 146981 string characters out of 1152823
+ 780753 words of memory out of 3000000
+ 13016 multiletter control sequences out of 15000+50000
+ 47975 words of font info for 114 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,12n,43p,349b,1921s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,51p,349b,1920s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1/urw/pala
-tino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (6 pages, 122740 bytes).
+ve/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplb8a.
+pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/t
+exmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (12 pages, 219963 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 233 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 815 PDF objects out of 1000 (max. 8388607)
+ 556 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
