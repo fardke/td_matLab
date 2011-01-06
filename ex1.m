@@ -17,7 +17,7 @@ s(512/2-a:512/2+a) = 1;%les valeurs entre -8 et 8 notre porte vaut 1
 h = stem(-255:256, s);%on trace tous les points de s entre -255 et 256
 xlim([t_min t_max]);%les x sont compris entre t_min et t_max
 my_title('Signal porte de largeur 16 et d''amplitude 1',25);
-%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx1/signalPorte.jpg"
+%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx1/signalPorte.eps"
 
 input('Figure suivante ? ');
 
@@ -25,4 +25,4 @@ input('Figure suivante ? ');
 fig = stem(f, abs(x));%on trace la valeur absolu de la transforme de fourier
 xlim([0 0.5]);%sur l'intervalle 0 0.5
 my_title('Transformee de fourier de la porte sur l''intervalle [0,0.5]', 25) ; 
-%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx1/tfd.jpg"
+%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx1/tfd.eps"

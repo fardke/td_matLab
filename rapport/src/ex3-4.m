@@ -12,19 +12,19 @@ f = nu*fe ;                             % Frequence
 %On trace le diagramme de gain pour determiner la nature du filtre
 plot(nu,20*log10(abs(H))) ;
 my_title('Diagramme de gain en frequence reduite en db',25) ;
-%print -deps "/home/kewin/octave/td_matLab/rapport/src/resEx3/f4Gain.jpg" 
+%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx3/f4Gain.eps" 
 
 input ('Figure suivante ?') ;
 %Diagramme de phase
 plot(nu,angle(H)) ;
 my_title('Diagramme de phase en frequence reduite',25) ;
-%print -deps "/home/kewin/octave/td_matLab/rapport/src/resEx3/f4Phase.jpg" 
+%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx3/f4Phase.eps" 
 
 input ('Figure suivante ? ') ;
 %Zeros et poles
 zplane(B, A) ;
 my_title('Zeros et poles',25) ;
-%print -deps "/home/kewin/octave/td_matLab/rapport/src/resEx3/f4ZP.jpg" 
+%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx3/f4ZP.eps" 
 
 %Reponse impulsionnelle
 %Definition de l'intervalle de visualisation
@@ -41,7 +41,7 @@ y = filter(B,A,dirac);
 input ('Figure suivante ?') ;
 stem (n,y) ;
 my_title('Reponse impulsionnelle',25) ;
-%print -deps "/home/kewin/octave/td_matLab/rapport/src/resEx3/f4Impulsion.jpg" 
+%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx3/f4Impulsion.eps" 
 
 input ('Figure suivante ?') ;
 %Reponse indicielle
@@ -53,5 +53,5 @@ endfor
 i = filter(B,A,u) ;
 h_obj = stem (n,i) ;
 my_title('Reponse indicielle',25) ;
-%print -deps "/home/kewin/octave/td_matLab/rapport/src/resEx3/f4Indice.jpg" 
+%print -deps "/home/kewin/octave/td_matLab/rapport/fig/resEx3/f4Indice.eps" 
 
