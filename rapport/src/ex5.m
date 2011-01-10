@@ -1,19 +1,15 @@
-%Exercice 5
-%Construisez une sinusoïde de fréquence 1 kHz échantillonnée à 10 kHz d’amplitude 1.
-%Ajouter à celle-ci un bruit gaussien de moyenne nulle et d’amplitude 0.4.
-
 clear ;
 clf ;
 
-fsig = 1000;	% fréquence du signal
-fe = 10000 ;	% fréquence d'échantillonnage
+fsig = 1000;	% frequence du signal
+fe = 10000 ;	% frequence d echantillonnage
 
 T0 = 1/fsig ;
 dt_plot = 1/fe ;
-N=4096; %Nombre d’échantillon
+N=4096; 	%Nombre d echantillon
 
-tmin = 0 ;		%borne min de l'intervalle de visualisation
-tmax = (N-1)*dt_plot ;	%borne max de l'intervalle de visualisation
+tmin = 0 ;		%borne min de l intervalle de visualisation
+tmax = (N-1)*dt_plot ;	%borne max de l intervalle de visualisation
 
 t = tmin:dt_plot:tmax ;
 
@@ -55,7 +51,7 @@ xlim([900,1100]); %intervalle de visualisation
 %print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx5/fig_3_passbande.eps"
 
 
-input('Afficher la transformé de fourier de la sinusoide bruité');
+input('Afficher la transforme de fourier de la sinusoide bruite');
 
 clf;
 hold on;
@@ -72,10 +68,6 @@ input('Application du filtre passe bande');
 y=filter(b,a,xB); % on applique le filtre genere precedemment a la courbe
 [yF f] = TFD(y, fe, N);
 plot(f,abs(yF));
-my_title('Signal Sinus bruité puis filtre',25) ;
+my_title('Signal Sinus bruite puis filtre',25) ;
 xlim([900,1100]); %intervalle de visualisation
 %print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx5/fig_5_sinus-b.eps"
-
-% 1/ Dans notre cas nous utiliserons un filtre pass-bande donc notre condition est Ws(1) < Wp(1) < Wp(2) < Ws(2) sachant que notre signal est à 1khz on choisit respectivement Ws(1)=50 < Wp(1)=980 < Wp(2)=1020 < Ws(2)=1450 .
-
-% 2/ En comparant la courbe de la transformation de fourier du signal bruité et la courbe du signal bruité filtré on remarque que le bruit autour de la frequence 1KHz ( le pic de la courbe ) discorde moins la courbe et à donc été atténué .

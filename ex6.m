@@ -13,7 +13,7 @@ h = stem (1:1:x_max, x);% affichage de l'allure temporelle de x
 xlim([0 x_max]);%intervalle de visualisation
 set_ylim(x) ;
 my_title ('Allure temporelle de x',25) ;
-print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_1.eps"
+%print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_1.eps"
 
 input("Figure suivante ?");
 %Spectre de X
@@ -22,7 +22,7 @@ h = stem (1:1:x_max, abs(spectreX));%on trace
 xlim([0 x_max]);%intervalle de visualisation
 set_ylim(abs(spectreX)) ;
 my_title ('Spectre de x',25) ;
-print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_2.eps"
+%print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_2.eps"
 
 input("Figure suivante ?");
 %Allure temporelle de Y // on fait pareil qu'avec y
@@ -30,7 +30,7 @@ h = stem (1:1:y_max, y);% affichage de l'allure temporelle de y
 xlim([0 y_max]);
 set_ylim(y) ;
 my_title ('Allure temporelle de y',25) ;
-print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_3.eps"
+%print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_3.eps"
 
 input("Figure suivante ?");
 %Spectre de Y // On fait pareil qu'avec x
@@ -39,7 +39,7 @@ h = stem (1:1:y_max, abs(spectreY));	% fft de y
 xlim([0 y_max]);
 set_ylim(abs(spectreY)) ;
 my_title ('Spectre de y',25) ;
-print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_4.eps"
+%print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_4.eps"
 
 input("Afficher caracteristique de x ?");
 % Caracteristique du signal x
@@ -60,7 +60,7 @@ plot([min(fX) max(fX)], [1/fe 1/fe]) ;
 my_title ('Densite spectrale du signal x',25) ;
 set_ylim(psdX) ;
 xlim([min(fX) max(fX)]);
-print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_5.eps"
+%print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_5.eps"
 hold off 
 
 input ('Figure suivante ? ');
@@ -73,7 +73,7 @@ plot([min(fY) max(fY)], [1/fe 1/fe]) ;
 my_title ('Densite spectrale du signal y',25) ;
 set_ylim(abs(psdY)) ;
 xlim([min(fY) max(fY)]);
-print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_6.eps"
+%print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_6.eps"
 hold off 
 
 input ('Figure suivante ? ');
@@ -88,27 +88,8 @@ legend('Fonction de transfert harmonique du filtre', 'Fonction de transfert defi
 xlim([0 500]);
 set_ylim(tXY) ;
 my_title ('Fonctions de transfert',25) ;
-print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_7.eps"
+%print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_7.eps"
 hold off
-
-
-
-
-
-
-
-%Afficher caracteristique de x
-%Moyenne = 0.02
-%Ecart type = 1.01
-%Variance = 1.02
-
-
-
-
-
-
-
-
 
 
 

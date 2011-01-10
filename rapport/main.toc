@@ -25,18 +25,18 @@
 \contentsline {part}{IV\hspace {1em}Exercice 4}{18}{part.4}
 \contentsline {part}{V\hspace {1em}Exercice 5}{21}{part.5}
 \contentsline {part}{VI\hspace {1em}Exercice 6}{23}{part.6}
-\contentsline {part}{VII\hspace {1em}Exercice 7}{24}{part.7}
-\contentsline {part}{VIII\hspace {1em}Annexe}{24}{part.8}
-\contentsline {section}{\numberline {1}Exercice1}{24}{section.8.1}
-\contentsline {section}{\numberline {2}Exercice2}{24}{section.8.2}
-\contentsline {section}{\numberline {3}Exercice3}{25}{section.8.3}
-\contentsline {subsection}{\numberline {3.1}Fonction ${\begingroup 1-z^{-1}\endgroup \over 2}$}{25}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {3.2}Fonction ${\begingroup 1+z^{-1}\endgroup \over 2}$}{26}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {3.3}Fonction ${\begingroup 1-z^{-2}\endgroup \over 2}$}{27}{subsection.8.3.3}
-\contentsline {subsection}{\numberline {3.4}Fonction ${\begingroup 2z^{-1}\endgroup \over 2-z^{-1}}$}{28}{subsection.8.3.4}
-\contentsline {subsection}{\numberline {3.5}Fonction ${\begingroup 2z^{-1}-z^{-5}\endgroup \over 2-z^{-1}}$}{29}{subsection.8.3.5}
-\contentsline {section}{\numberline {4}Exercice 4}{30}{section.8.4}
-\contentsline {section}{\numberline {5}Exercice 5}{31}{section.8.5}
-\contentsline {section}{\numberline {6}Exercice 6}{31}{section.8.6}
-\contentsline {section}{\numberline {7}Exercice 7}{33}{section.8.7}
-\contentsline {section}{\numberline {8}Fonction \IeC {\'e}chelon}{33}{section.8.8}
+\contentsline {part}{VII\hspace {1em}Exercice 7}{27}{part.7}
+\contentsline {part}{VIII\hspace {1em}Annexe}{28}{part.8}
+\contentsline {section}{\numberline {1}Exercice1}{28}{section.8.1}
+\contentsline {section}{\numberline {2}Exercice2}{28}{section.8.2}
+\contentsline {section}{\numberline {3}Exercice3}{29}{section.8.3}
+\contentsline {subsection}{\numberline {3.1}Fonction ${\begingroup 1-z^{-1}\endgroup \over 2}$}{29}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {3.2}Fonction ${\begingroup 1+z^{-1}\endgroup \over 2}$}{30}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {3.3}Fonction ${\begingroup 1-z^{-2}\endgroup \over 2}$}{31}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {3.4}Fonction ${\begingroup 2z^{-1}\endgroup \over 2-z^{-1}}$}{32}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {3.5}Fonction ${\begingroup 2z^{-1}-z^{-5}\endgroup \over 2-z^{-1}}$}{33}{subsection.8.3.5}
+\contentsline {section}{\numberline {4}Exercice 4}{34}{section.8.4}
+\contentsline {section}{\numberline {5}Exercice 5}{35}{section.8.5}
+\contentsline {section}{\numberline {6}Exercice 6}{36}{section.8.6}
+\contentsline {section}{\numberline {7}Exercice 7}{38}{section.8.7}
+\contentsline {section}{\numberline {8}Fonction \IeC {\'e}chelon}{39}{section.8.8}

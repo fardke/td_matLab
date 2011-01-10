@@ -91,24 +91,3 @@ my_title ('Fonctions de transfert',25) ;
 print -deps "/home/rabgs/TPFINAL/td_matLab/rapport/fig/resEx6/fig_7.eps"
 hold off
 
-
-
-
-
-
-
-%Afficher caracteristique de x
-%Moyenne = 0.02
-%Ecart type = 1.01
-%Variance = 1.02
-
-
-
-
-
-
-
-
-
-
-
