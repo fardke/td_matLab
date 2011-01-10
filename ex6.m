@@ -1,11 +1,11 @@
-%
+% Exercice 6
 clear
 clf
 
-load "TD_ESIL.mat";% Dans le fichier matLab on recupere la var fe, et les tableaux A,B,x,y
+load "TD_ESIL.mat"; % Dans le fichier matLab on recupere la var fe, et les tableaux A,B,x,y
 
 %Recuperation de la longueure des tableau x,y
-x_max = length(x);%taille de x
+x_max = length(x); %taille de x
 y_max = length(y);
 
 %Allure temporelle de X
