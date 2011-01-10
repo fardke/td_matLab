@@ -1,3 +1,4 @@
+%Exercice 5
 %Construisez une sinusoïde de fréquence 1 kHz échantillonnée à 10 kHz d’amplitude 1.
 %Ajouter à celle-ci un bruit gaussien de moyenne nulle et d’amplitude 0.4.
 
