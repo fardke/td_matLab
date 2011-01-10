@@ -4,43 +4,73 @@
 clear ;
 clf ;
 
-% Fonction sinus
 
-f0 = 1000;		%fréquence du signal
-fplot = 10000 ; % fréquence d'échantillonnage
 
-T0 = 1./f0 ;
 
-dt_plot = 1./fplot ;
+fsig = 1000;	% fréquence du signal
+fe = 10000 ;	% fréquence d'échantillonnage
+
+T0 = 1/fsig ;
+dt_plot = 1/fe ;
+N=4096; % Nombre de point qu'on veut calculer
 
 tmin = 0 ;
-tmax = 10*T0 ;
+tmax = (N-1)*dt_plot ;
 
 t = tmin:dt_plot:tmax ;
-N = length(t) ;
-x = (sin (2*pi*f0*t)/2) ;
+
+
+x = sin(2*pi*fsig*t) ;
 %X = fft (x) ;
 plot (t, x) ;
+axis([0 2*T0]);
+my_title('Signal Sinus',25) ;
+
 input('Afficher la sinusoide en appliquant le bruit');
-moy = 0;
-ampl = 0.4;
+
+% caracteristique du bruit gaussien
+moy = 0; % moyenne 
+ampl = 0.4; % amplitude du bruit
+ 
 xB = x.+(moy+ampl*randn(1,N));
 plot(t,xB);
+axis([0 2*T0]);
+my_title('Signal Sinus bruité',25) ;
+
 input('Afficher la transformé de fourier de la sinusoide bruité');
+
 clf;
 hold on;
-xBF = fft(xB);
+%xBF = fft(xB);
+[xBF f] = TFD(xB, fe, N);
 xF = fft(x);
-plot(t,xF,'r');
-plot(t,xBF);
+%plot(t,xF,'r');
+plot(f,abs(xBF));
+my_title('Transformé de fourier du Signal Sinus bruité',25) ;
+xlim([900,1100]); % on restreint l'affichage sur une zone ( courbe symetrique )
 hold off;
 
+input('Creation du filtre passe bande');
+
+Wp = [980 1020]/(fe/2); % borne inferieur de la bande passante
+Ws = [50 1450]/(fe/2); % borne superieur de la bande passante
+Rp = 3;
+Rs = 40;
+[n,Wn] = buttord(Wp,Ws,Rp,Rs); % calcule l'ordre du filtre Butterworth, ici nous faisons un filtre passe bande car (Ws(1) < Wp(1) < Wp(2) < Ws(2)
+[b,a] = butter(n,Wn);
+%freqz(b,a,N,fe);
+[H f] = freqz(b,a,N,fe); % Genere le filtre butterworth
+plot(f,abs(H));
+my_title('Filtre passe bande',25) ;
+xlim([900,1100]); % on restreint l'affichage sur une zone ( courbe symetrique )
+
 input('Application du filtre passe bande');
-f1 = 0.4;
-f2 = 0.1;
-fe = 1;
-bw(1) = 2*f2/fe ;
-bw(2) = 2*f1/fe ;
-h4 = fir1 (N,bw,'blackman');
-H4 = freqz(h4);
-plot(t, abs(H4));
+y=filter(b,a,xB); % on applique le filtre genere precedemment a la courbe
+[yF f] = TFD(y, fe, N);
+plot(f,abs(yF));
+my_title('Signal Sinus bruité puis filtré',25) ;
+xlim([900,1100]); % on restreint l'affichage sur une zone ( courbe symetrique )
+
+% 1/ Dans notre cas nous utiliserons un filtre pass-bande donc notre condition est Ws(1) < Wp(1) < Wp(2) < Ws(2) sachant que notre signal est à 1khz on choisit respectivement Ws(1)=50 < Wp(1)=980 < Wp(2)=1020 < Ws(2)=1450 .
+
+% 2/ En comparant la courbe de la transformation de fourier du signal bruité et la courbe du signal bruité filtré on remarque que le bruit autour de la frequence 1KHz ( le pic de la courbe ) discorde moins la courbe et à donc été atténué .
